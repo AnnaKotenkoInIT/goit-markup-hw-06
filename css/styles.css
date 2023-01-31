@@ -482,11 +482,14 @@ img {
   display: flex;
 }
 
+.subscribe-label {
+  margin-right: 24px;
+}
+
 .subscribe-input {
   width: 264px;
   height: 40px;
   padding-left: 16px;
-  margin-right: 24px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -497,6 +500,7 @@ img {
 .btn-subscribe {
   display: flex;
   padding: 8px 24px;
+  height: 40px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -668,7 +672,7 @@ img {
   /* position: absolute;
   right: 24px;
   top: 24px; */
-  display: block;
+  display: flex;
   margin-left: auto;
   width: 24px;
   height: 24px;
@@ -765,6 +769,7 @@ img {
   padding-right: 16px;
   background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  outline-color: #4d5ae5;
   border-radius: 4px;
   margin-bottom: 16px;
   resize: none;
@@ -802,8 +807,13 @@ img {
   fill: #f4f4fd;
 }
 
+.link-policy {
+  color: #4d5ae5;
+}
+
 .btn-submit {
   display: block;
+  width: 169px;
   margin: 0 auto;
   padding: 16px 32px;
   align-self: center;
